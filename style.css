@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    background-image: linear-gradient(white, white, #79BDDA);
+	background-size: cover;
+    margin: 0px;
+    font-size: 22px;
+    color: #524A26;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.actionBody{
+	height: 100vh;
+}
+
+h2 {
+    font-family: 'Kalam', cursive;
+    font-weight: normal;
+    margin-bottom: 0.36em;
+    color: #355970c4;
+}
+
+.mainContainer{
+    padding-top:1.9em;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigation{
+    background-color:#65A5D1;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.navLinks{
+    display: flex;
+    padding: 0.36em;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.navlink{
+    font-size: 1.14em;
+}
+
+.navlink a{
+    font-weight: bold;
+    color: white;
+}
+
+#homeCurr a, #issueCurr a, #actionCurr a{
+    color: #524A26;
+}
+
+.topic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topicLeft{
+    width: 120%;
+}
+
+.topicImage{
+    width: 100%;
+}
+
+.topicRight{
+    font-family: 'Kalam', cursive;
+    font-size: 1.64em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+.data1{
+    margin-top: 1.64em;
+    font-size: 1.14em;
+    padding-left: 8%;
+}
+
+.data2{
+    padding-left: 40%;
+    padding-right: 8%;
+    font-family: 'Kalam', cursive;
+    font-size: 1.64em;
+}
+
+.introContainer{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    width: 80%;
+    display: flex;
+    gap: 5%;
+}
+
+.introLeft{
+    display: flex;
+    background-color: #355970c4;
+    color: white;
+    font-size: 1.14em;
+    font-weight: bold;
+    padding: 0.9em;
+    align-items: center;
+    justify-content: center;
+}
+
+.introRight{
+    display: flex;
+    background-color: #86f0db4d;
+    padding: 0.9em;
+    align-items: center;
+    justify-content: center;
+    width: 300%;
+}
+
+.subPageMainContent{
+    padding:2.3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.statsImage{
+    width: 50%;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0.9em;
+    gap: 0.9em;
+    flex-wrap: WRAP;
+}
+
+.video {
+    flex-grow: 1;
+    aspect-ratio: 16 / 9;
+}
+
+.cleanWaterAction{
+    display: flex;
+    background-color: #b8ddc199;
+    padding: 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9em;
+}
+
+.CWATextContainer{
+    width: 200%;
+}
+
+.cleanWaterActionImg{
+    width: 100%;
+}
